@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"/>
+<odoo>
+
+    <!-- Top menu items -->
+
+    <menuItem id="hospital_root" name="Hospital" active="False" sequence="10"/>
+    <menuItem id="hospital_patient_root" name="Patients" parent="hospital_root" active="False" sequence="10"/>
+    <menuItem id="hospital_patient" name="Patients" parent="hospital_patient_root" active="False" sequence="10"/>
+
+
+
+</odoo>
